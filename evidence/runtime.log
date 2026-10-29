@@ -1,0 +1,6 @@
+OUTPUT (last 5 lines):
+  ℹ fail 0
+  ℹ cancelled 0
+  ℹ skipped 0
+  ℹ todo 0
+  ℹ duration_ms 88.2952

@@ -1,0 +1,5 @@
+__pycache__/
+.cache/
+evidence/browser-*.png
+evidence/release.json
+evidence/live-check.json

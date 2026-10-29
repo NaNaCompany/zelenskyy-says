@@ -1,0 +1,22 @@
+{
+  "slug": "zelenskyy-says",
+  "name": "Zelenskyy Says",
+  "wordmark": "ZELENSKYY",
+  "subject": "Volodymyr Zelenskyy",
+  "handle": "ZelenskyyUa",
+  "initials": "VZ",
+  "color": "#526d86",
+  "profile": "https://x.com/ZelenskyyUa",
+  "origin": "https://nanalab.kr/zelenskyy-says",
+  "photo": null,
+  "portrait": "assets/portrait.svg",
+  "audience": "public",
+  "languages": [
+    "en"
+  ],
+  "coverage": "partial",
+  "content_mode": "official_embeds",
+  "browse_timezone": "UTC",
+  "reposts_excluded": true,
+  "translations": false
+}

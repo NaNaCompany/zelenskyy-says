@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "local_mobile": {
+    "slug": "zelenskyy-says",
+    "clientWidth": 360,
+    "externalScripts": [],
+    "imageLoaded": true,
+    "innerWidth": 375,
+    "lang": "en",
+    "months": 1,
+    "more": "https://nanalab.kr/apps/",
+    "noReposts": true,
+    "noTranslations": true,
+    "scrollWidth": 360,
+    "title": "Zelenskyy Says"
+  },
+  "navigation": {
+    "slug": "zelenskyy-says",
+    "monthSample": 50,
+    "day": "2026-10-15",
+    "dayCount": 2,
+    "passed": true
+  },
+  "desktop_shared_template": {
+    "inner_width": 1280,
+    "client_width": 1265,
+    "scroll_width": 1265
+  },
+  "local_embed_fallback": true,
+  "browser_copy_toast_observed": true,
+  "os_clipboard_readback": false
+}

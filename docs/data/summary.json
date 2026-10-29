@@ -1,0 +1,113 @@
+{
+  "slug": "zelenskyy-says",
+  "captured_at": "2026-10-28T23:51:54.990547+00:00",
+  "coverage": "partial",
+  "records": 140,
+  "first": "2026-10-15",
+  "last": "2026-10-28",
+  "exact_time": 140,
+  "sources": [
+    {
+      "id": "nitter-public-timeline",
+      "url": "https://nitter.jaydenha.uk/ZelenskyyUa/with_replies",
+      "creator": "Nitter public timeline (original X account linked for every record)",
+      "redistributed_fields": [
+        "post_id",
+        "author",
+        "ID-derived timestamp",
+        "original_permalink",
+        "post_kind"
+      ],
+      "body_rights": "Not established; all scraped bodies, media, translations and third-party summaries excluded"
+    }
+  ],
+  "collection_limit_pages": 20,
+  "pages": [
+    {
+      "url": "https://nitter.jaydenha.uk/ZelenskyyUa/with_replies",
+      "sha256": "0afaf2e7810a077eb4b5f57b536bb2ac661d9ee4c7b5a7c60cdb7b7d8d290207",
+      "timeline_items": 20,
+      "accepted": 20,
+      "excluded": {}
+    },
+    {
+      "url": "https://nitter.jaydenha.uk/ZelenskyyUa/with_replies?cursor=DAAHCgABHVwYG3I___MLAAIAAAATMjExNTE3Mzg1MzY1NTk3MDA4NAgAAwAAAAIAAA",
+      "sha256": "61bbac42d0c3f8642116fce8c4217f763650a4ace9078126b073f8e1c7de99ec",
+      "timeline_items": 21,
+      "accepted": 20,
+      "excluded": {
+        "missing-author-or-permalink": 1
+      }
+    },
+    {
+      "url": "https://nitter.jaydenha.uk/ZelenskyyUa/with_replies?cursor=DAAHCgABHVwYG3I__-gLAAIAAAATMjExNDY2ODg4MTQ2NTcxMzAzMAgAAwAAAAIAAA",
+      "sha256": "93e142b92f9d2e6e6e800c47841da4839f38ff4c0d0abfb294adb4fa35f3cc80",
+      "timeline_items": 21,
+      "accepted": 20,
+      "excluded": {
+        "missing-author-or-permalink": 1
+      }
+    },
+    {
+      "url": "https://nitter.jaydenha.uk/ZelenskyyUa/with_replies?cursor=DAAHCgABHVwYG3I__9gLAAIAAAATMjExMzYxMzE2MDM1NTcwOTEzNggAAwAAAAIAAA",
+      "sha256": "d9c9d15e00459bc46f8210e31b31456242bd654cc5203e515fa958438c756e87",
+      "timeline_items": 22,
+      "accepted": 21,
+      "excluded": {
+        "missing-author-or-permalink": 1
+      }
+    },
+    {
+      "url": "https://nitter.jaydenha.uk/ZelenskyyUa/with_replies?cursor=DAAHCgABHVwYG3I__8sLAAIAAAATMjExMjg0NjQ5MTQyOTUyNzk1NAgAAwAAAAIAAA",
+      "sha256": "c35a9cdf2b943818f368be98bce80f725f156eef67d003e659d1ef6c1beddfa4",
+      "timeline_items": 22,
+      "accepted": 21,
+      "excluded": {
+        "missing-author-or-permalink": 1
+      }
+    },
+    {
+      "url": "https://nitter.jaydenha.uk/ZelenskyyUa/with_replies?cursor=DAAHCgABHVwYG3I__70LAAIAAAATMjExMjI1MDI2OTc0MDI2NTg3NAgAAwAAAAIAAA",
+      "sha256": "7420aa4527ae5542541286a827aef0ef7b9efbac3a6a51f59b6289a16c7adab7",
+      "timeline_items": 22,
+      "accepted": 20,
+      "excluded": {
+        "missing-author-or-permalink": 1,
+        "other-author-or-unverified": 1
+      }
+    },
+    {
+      "url": "https://nitter.jaydenha.uk/ZelenskyyUa/with_replies?cursor=DAAHCgABHVwYG3I__68LAAIAAAATMjExMTQ1NzI4OTQ4Mzc4MDI5MAgAAwAAAAIAAA",
+      "sha256": "c60b7f6b80606a675cc96d151e2d59f67006b6de5aa907abbe8028ac23a11373",
+      "timeline_items": 21,
+      "accepted": 20,
+      "excluded": {
+        "missing-author-or-permalink": 1
+      }
+    },
+    {
+      "url": "https://nitter.jaydenha.uk/ZelenskyyUa/with_replies?cursor=DAAHCgABHVwYG3I__6ELAAIAAAATMjExMDgzODUxMDUxNzM4NzUxOQgAAwAAAAIAAA",
+      "sha256": "f76e1ca723d7c42ae7c12990f65e0997333219654040ae276550d4ab55c322e7",
+      "timeline_items": 1,
+      "accepted": 0,
+      "excluded": {
+        "missing-author-or-permalink": 1
+      }
+    }
+  ],
+  "excluded": {
+    "missing-author-or-permalink": 7,
+    "other-author-or-unverified": 1
+  },
+  "repost_policy": "Exclude every native repost; require matching top-level permalink, username and timeline-item author. Quotes require authored content; replies are eligible. Ambiguous records excluded.",
+  "translation_policy": "No translations collected or created. Official X embed displays original content.",
+  "post_body_policy": "Only factual metadata and original permalinks are redistributed; original content is loaded through the official X embed on demand.",
+  "subject": "Volodymyr Zelenskyy",
+  "account": "ZelenskyyUa",
+  "platform_counts": {
+    "x": 140
+  },
+  "days": 14,
+  "months": 1,
+  "content_mode": "official_embeds"
+}
