@@ -8,8 +8,8 @@
   "color": "#526d86",
   "profile": "https://x.com/ZelenskyyUa",
   "origin": "https://nanalab.kr/zelenskyy-says",
-  "photo": null,
-  "portrait": "assets/portrait.svg",
+  "photo": true,
+  "portrait": "assets/portrait.jpg",
   "audience": "public",
   "languages": [
     "en"
@@ -18,5 +18,6 @@
   "content_mode": "official_embeds",
   "browse_timezone": "UTC",
   "reposts_excluded": true,
-  "translations": false
+  "translations": false,
+  "feed_version": "20261029"
 }

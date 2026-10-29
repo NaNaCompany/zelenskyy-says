@@ -34,3 +34,13 @@ The sitemap.xml index points to sitemap-main.xml and sitemap-posts-01.xml. A par
 ## Rights and independence
 
 Original initials SVGs by NaNaCompany; no third-party portraits. Official X embed documentation: https://help.x.com/en/using-x/how-to-embed-a-post. Provider metadata is attributed on Sources & coverage. A dataset or software license does not grant rights to underlying social-post text. No affiliation or endorsement by the account holder, X, Nitter, a government or a political party is implied.
+
+## Ranked home feed
+
+The main page begins with up to 100 collected posts sorted by known source like count. Null counts are excluded from that ordering. It then continues newest first, without popular-post duplicates, using sequential static HTML pages fetched on scroll. Load more remains a normal pagination link without JavaScript. Like totals are snapshots with provenance, not live totals or a complete-account ranking.
+
+The right floating Archive menu offers the existing year/month routes. The full menu is shared and fetched only when needed outside the home. Original platform content automatically loads near the viewport in all lists; retry/original links remain available. Local previews do not send publisher or platform requests. The separate original TXT archive is local only and is not shipped in this repository. No translations or uncleared full post bodies are added to public pages.
+
+Verified portraits keep source, creator, license, modification and hash records on Sources & coverage. Tibo uses the photograph within official X embeds until a standalone reusable portrait is available.
+
+Additional runtime regression suite: node --test tests/feed-runtime.test.mjs. Build and exhaustive page validation remain python scripts/build_site.py and python scripts/check_site.py.
