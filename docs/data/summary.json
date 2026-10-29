@@ -109,5 +109,5 @@
   },
   "days": 14,
   "months": 1,
-  "content_mode": "official_embeds"
+  "content_mode": "text_preview_and_official_embeds"
 }
