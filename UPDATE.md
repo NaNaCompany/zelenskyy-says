@@ -48,3 +48,10 @@
 - Added one set of Open Graph image URL/alt/width/height/type and Twitter/X large-image card/image/alt tags on the canonical homepage only. The existing JPEG at https://nanalab.kr/zelenskyy-says/assets/portrait.jpg is used unchanged (960 × 1300 pixels).
 - Added a source build helper that reads the JPEG dimensions and verifies its bytes against the existing portrait-credit SHA256 before generating homepage metadata. Creator attribution, source, license and modification notices remain unchanged.
 - Local validation: no duplicate image tags; generated homepage tags match the directly updated homepage; source helper emits no image tags for a non-home page. Removing the inserted tags exactly restores the original homepage bytes. Body content, scripts, publisher integrations, APIs and existing non-home HTML are preserved. No full build, commit, push or deployment is claimed by this note.
+
+## 2026-11-02 — Shared book banner
+
+- Connected all public page types to `https://nanalab.kr/src_cdn/banner/astra.js`. Campaign, design, translated controls and the supplied YES24 book destination are maintained centrally in src_cdn.
+- Shared archive assets load the banner on detail/list pages; other HTML and source templates include the stable deferred loader. HTML-only generator adapters retain the connection after rebuilds and pass non-HTML values through unchanged.
+- The component is closable for the tab session, clears detected bottom navigation, and hides for modals/fullscreen/mobile input. The Astra practice site remains excluded. No additional analytics or ad-network requests are introduced by the component.
+- Existing content, routes and publisher integrations are preserved. Direct HTML changes restore exactly to the baseline when the marked loader is removed. Workspace validation/deployment evidence: `.tools/shared-book-banner-20261102/`.
